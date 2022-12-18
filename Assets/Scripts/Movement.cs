@@ -2,14 +2,18 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    Rigidbody rb;
     [SerializeField] float mainThrust = 1000f;
     [SerializeField] float rotationThrust = 1000f;
+
+    Rigidbody rb;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
+        // Caching
         rb = GetComponent<Rigidbody>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,8 +27,18 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
+            // To make sure we only play if we aren't already playing
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
 
             rb.AddRelativeForce(mainThrust * Time.deltaTime * Vector3.up);
+        }
+
+        else
+        {
+            audioSource.Stop();
         }
     }
 

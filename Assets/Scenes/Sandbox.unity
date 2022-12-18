@@ -536,12 +536,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5434485924371319861, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
-    - target: {fileID: 5434485924371319862, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_Enabled
+    - target: {fileID: 279151404, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
+      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5434485924438068149, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
@@ -592,21 +588,5 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rocket
       objectReference: {fileID: 0}
-    - target: {fileID: 5434485924624451643, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_Drag
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5434485924624451643, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_Constraints
-      value: 56
-      objectReference: {fileID: 0}
-    - target: {fileID: 5434485924624451643, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5434485924793448998, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c4c4e584c8bb1f49bfa4bf50596f76e, type: 3}
