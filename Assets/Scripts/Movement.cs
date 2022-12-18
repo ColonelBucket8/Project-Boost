@@ -32,6 +32,8 @@ public class Movement : MonoBehaviour
         ProcessRotation();
     }
 
+
+
     void ProcessThrust()
     {
         if (Input.GetKey(KeyCode.Space))
