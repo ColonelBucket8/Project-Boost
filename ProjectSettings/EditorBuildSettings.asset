@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Under.unity
     guid: 9f67752b43a8d0c42a05604813d39955
+  - enabled: 1
+    path: Assets/Scenes/Gap.unity
+    guid: 3c767b472f7cdca4e8cbbf48f6298b2f
   m_configObjects: {}
