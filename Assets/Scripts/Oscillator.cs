@@ -17,7 +17,11 @@ public class Oscillator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Continually growing overt ime
+        // Epsilon is the smallest number
+        // It's unpredictable to do == operation on float
+        if (period <= Mathf.Epsilon) { return; }
+
+        // Continually growing over time
         float cyles = Time.time / period;
 
         // Constant value of 6.283
