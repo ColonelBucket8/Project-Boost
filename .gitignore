@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /Temp/UnityLockfile
 /Temp
+/WebGL Builds
+/Builds
